@@ -1,19 +1,21 @@
 # Night shift: <project>, <date>
 
-<!-- The summary goes here at wake-up: Done, Not done, Needs you, The night. -->
+<!-- The handover goes here: Done, Review first, Not done, Needs you, Waiting for approval, The night. -->
 
 ## Plan
 
 - Started: <time>
-- Wake-up: <time> (nothing new starts after <cutoff>)
-- Pushing: <current branch | branch name | no>
+- Wake-up: <time> (epoch <seconds>); nothing new starts after <cutoff>
+- Base: <branch> at <commit>
+- Night branch: nightshift/<date> (pushed: <yes | no>)
 - Exceptions to "Never at night": <none>
-- Usage at start: 5h <pct>%, 7d <pct>%
+- Usage at start: 5h <pct>%, 7d <pct>% (the weekly guard counts from this)
 
 ### Queue
 
-1. <item>: done when <check>
-2. <item>: done when <check>
+| # | Task | Done when | Risk | Box ends | Commits | Undo |
+|---|---|---|---|---|---|---|
+| 1 | <task> | <check> | <green / yellow / red> | <time> | <first>..<last> | `git revert --no-edit <first>^..<last>` |
 
 ### Out tonight
 
@@ -23,20 +25,20 @@
 
 - Run file: <path>
 - caffeinate pid: <pid>
-- Hourly check: job <id>, next <time>
-- Wake-up: job <id> at <time>
-- Resume: <job id and time, when paused>
+- Rounds: job <id>, next <time>
+- Handover: job <id> at <time>
+- Break: <job id and time, while on a break>
 
-## Ladder
+## Council
 
-- Sonnet rounds: 0
+- Rounds of three: 0
 - Opus: 0
-- Fable: 0 of 10
+- Fable: 0 of 6
 
 ## Needs you
 
-<questions, decisions and approvals for the morning: options, recommendation, what it blocks>
+<questions and decisions for the morning: options, recommendation, what it blocks>
 
 ## Journal
 
-<!-- one line per step: time, item, what changed, commit, check -->
+<!-- one line per step: time, task, risk, what changed, commit, check; breaks, rounds and councils too -->
