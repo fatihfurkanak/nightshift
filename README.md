@@ -66,13 +66,9 @@ API key there is no 85% break; the night still runs.
 - **Memory:** over a long night the conversation gets summarised. The skill re-reads its run
   file after every task, so it always knows where it left off.
 
-## Credits
+## License
 
-The idea of a skill that works through the night was inspired by a post from Burak Tamaç
-([@burak_tamac](https://x.com/burak_tamac)). nightshift was written from scratch, with its own
-rules.
-
-MIT licensed. By Fatih Furkan Ak.
+MIT. By Fatih Furkan Ak.
 
 ---
 
@@ -140,9 +136,6 @@ yine çalışır.
 - **Hafıza:** uzun gecede konuşma özetlenir. Skill her işten sonra gece dosyasını yeniden
   okur; kaldığı yeri oradan bilir.
 
-### Teşekkür
+### Lisans
 
-Gece çalışan bir skill fikri, Burak Tamaç'ın ([@burak_tamac](https://x.com/burak_tamac)) bir
-paylaşımından ilham aldı. nightshift sıfırdan, kendi kurallarıyla yazıldı.
-
-Lisans: MIT. Yazan: Fatih Furkan Ak.
+MIT. Yazan: Fatih Furkan Ak.
