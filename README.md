@@ -4,8 +4,6 @@ A night shift for Claude Code. Type `/nightshift` before bed: Claude asks for ev
 needs in the first five minutes, then works alone until morning inside the limits you set,
 and hands the shift over to you with a summary.
 
-*Türkçesi aşağıda.*
-
 ## What it does
 
 - **Asks everything in the first five minutes:** the task queue and its order, the wake-up
